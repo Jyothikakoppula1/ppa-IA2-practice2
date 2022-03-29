@@ -44,3 +44,4 @@ int main()
   output(n,composite);
   return 0;
 }
+
