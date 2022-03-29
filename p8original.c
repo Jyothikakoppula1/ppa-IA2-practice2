@@ -4,14 +4,14 @@ typedef struct _triangle
   float base,altitude,area;
 } Triangle;
 
-int input_n() // Enter the number of triangles
+int input_n()
 {
   int n;
   printf("Enter the number of triangles: \n");
   scanf("%d",&n);
   return n;
 }
-Triangle input_triangle()//Enter the base, altitude of a triangle
+Triangle input_triangle()
 {
   Triangle t;
   printf("Enter the base, altitude of a triangle:\n");
